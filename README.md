@@ -143,4 +143,4 @@ Install dependencies using:
 
 ## 📹 Demo Video
 
-    A 2-minute video demonstration of the web app usage is included in demo_video.mp4.
+    A video demonstration of the web app usage is included in https://drive.google.com/file/d/12PmQ4pcxa89-KhkkD1c_zUqjdigqExtX/view?usp=sharing.
