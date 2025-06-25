@@ -128,7 +128,7 @@ weighted avg       0.73      0.73      0.73       491
 
 ## 🚀 Streamlit Web App
 
-Launch the web app with:
+Launch the web app with: https://emotionclassification-4jyckjv2krbaq2m89uf6zw.streamlit.app/
 
 ```bash
 streamlit run app.py
