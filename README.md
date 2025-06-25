@@ -62,14 +62,7 @@ The final model is deployed as a **Streamlit web app** where users can upload a 
 ## 🧩 Model Pipeline
 
 We used a **hybrid CNN + LSTM architecture**:
-
-```text
-Conv1D(128) → BatchNorm → MaxPool → Dropout
-Conv1D(256) → BatchNorm → MaxPool → Dropout
-Conv1D(256) → BatchNorm → MaxPool → Dropout
-LSTM(128) → LSTM(256) → Dropout → LSTM(64)
-Dense(8) with softmax
-```
+![alt text](model_arch.png)
 
 -   Optimizer: Adam
 
