@@ -1,0 +1,19 @@
+# Ignore Python virtual environments
+venv/
+env/
+nenv/
+.nenv/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model and log files
+*.h5
+*.pkl
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
