@@ -133,14 +133,6 @@ streamlit run app.py
 
 Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips from RAVDESS
 
-## 🧪 Testing the Model with a Script
-
-Test model with a custom .wav file:
-
-```bash
-    python test_script.py path/to/audio.wav
-```
-
 ## 📦 Requirements
 
 Install dependencies using:
