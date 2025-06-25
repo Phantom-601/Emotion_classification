@@ -71,6 +71,14 @@ LSTM(128) → LSTM(256) → Dropout → LSTM(64)
 Dense(8) with softmax
 ```
 
+-   Optimizer: Adam
+
+-   Loss: Categorical Crossentropy
+
+-   Regularization: Dropout + Batch Normalization
+
+-   EarlyStopping & ReduceLROnPlateau callbacks used
+
 ```python
     model = Sequential([
     Conv1D(128, kernel_size=3, activation='relu', padding='same', input_shape=(40, 1)),
@@ -94,4 +102,26 @@ Dense(8) with softmax
 
     Dense(len(label_encoder.classes_), activation='softmax')
 ])
+```
+
+## Accuracy Metrics
+
+-   f1 Score and Confusion Matrix are used
+
+```text
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.81      0.84      0.82        75
+        calm       0.83      0.76      0.79        75
+     disgust       0.75      0.77      0.76        39
+     fearful       0.68      0.65      0.67        75
+       happy       0.66      0.71      0.68        75
+     neutral       0.63      0.84      0.72        38
+         sad       0.70      0.64      0.67        75
+   surprised       0.81      0.67      0.73        39
+
+    accuracy                           0.73       491
+   macro avg       0.73      0.73      0.73       491
+weighted avg       0.73      0.73      0.73       491
 ```
