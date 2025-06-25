@@ -106,7 +106,7 @@ Dense(8) with softmax
 
 ## Accuracy Metrics
 
--   f1 Score and Confusion matrix are used:
+-   f1 Score
 
 ```text
 Classification Report:
@@ -125,6 +125,8 @@ Classification Report:
    macro avg       0.73      0.73      0.73       491
 weighted avg       0.73      0.73      0.73       491
 ```
+
+## confusion matrix
 
 ![alt text](image.png)
 
