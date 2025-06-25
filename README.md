@@ -106,7 +106,7 @@ Dense(8) with softmax
 
 ## Accuracy Metrics
 
--   f1 Score and Confusion Matrix are used
+-   f1 Score :
 
 ```text
 Classification Report:
@@ -125,3 +125,24 @@ Classification Report:
    macro avg       0.73      0.73      0.73       491
 weighted avg       0.73      0.73      0.73       491
 ```
+
+## 🚀 Streamlit Web App
+
+Launch the web app with:
+
+```bash
+streamlit run app.py
+```
+
+Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips from RAVDESS
+
+## 🧪 Testing the Model with a Script
+
+    Test model with a custom .wav file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## 📹 Demo Video
+
+    A 2-minute video demonstration of the web app usage is included in demo_video.mp4.
