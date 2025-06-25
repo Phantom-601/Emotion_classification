@@ -131,7 +131,7 @@ Launch the web app with: https://emotionclassification-4jyckjv2krbaq2m89uf6zw.st
 streamlit run app.py
 ```
 
-Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips from RAVDESS
+Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips.
 
 ## 📦 Requirements
 
