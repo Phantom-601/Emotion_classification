@@ -128,7 +128,7 @@ weighted avg       0.73      0.73      0.73       491
 
 ## confusion matrix
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## 🚀 Streamlit Web App
 
