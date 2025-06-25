@@ -126,7 +126,7 @@ Classification Report:
 weighted avg       0.73      0.73      0.73       491
 ```
 
-## confusion matrix
+-   confusion matrix
 
 ![alt text](image-1.png)
 
